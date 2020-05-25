@@ -1,0 +1,17 @@
+<view>
+<button type="primary" bindtap="getImageSrc">图片上传</button>
+<text>展示图片：</text>
+<image src="{{imageSrc}}"></image>
+</view>
+
+<view>
+<button type="primary" bindtap="getVideoSrc">视屏上传</button>
+<text>展示视屏：</text>
+<video src="{{videoSrc}}"></video>
+</view>
+
+
+<view>
+<button type="primary" bindtap="getFileSrc">文件（excel）上传</button>
+<button type="primary" bindtap="getDownloadOpen">下载该上传文件并打开</button>
+</view>
